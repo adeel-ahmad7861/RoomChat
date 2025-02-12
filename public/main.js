@@ -24,7 +24,6 @@ function sendmessage(){
         dateTime:new Date()
     }
     socket.emit("message",data);
-    
 
     addMessageTouI(true,data)
     
